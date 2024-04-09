@@ -18,13 +18,24 @@
 }
 
 .characterCard {
-  border: 1px solid #ccc;
+  border: 1px #ccc;
+  border-style: dashed;
   padding: 10px;
   cursor: pointer;
 }
 
+.characterCard:hover {
+  background-color: #36cafc4f;
+
+  border: 3px #ff8d3cb6;
+  border-style: dotted;
+}
+
 .characterCard.selected {
-  background-color: #f0f0f0;
+  background-color: #ff8d3cb6;
+
+  border: 3px #21a0c6;
+  border-style: dotted;
 }
 
 .characterCard img {
@@ -34,6 +45,7 @@
 
 .characterCard h3 {
   margin-top: 10px;
+  color: rgb(74, 225, 175);
 }
 
 .characterCard ul {
@@ -44,3 +56,17 @@
 .characterCard li {
   margin-bottom: 5px;
 }
+
+.characterImage {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.startGameBtn {
+  color: rgb(74, 225, 175);
+  background-color: black;
+
+  padding: 10px 20px;
+  margin-top: 10px;
+} 
