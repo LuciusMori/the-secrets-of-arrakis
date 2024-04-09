@@ -18,13 +18,20 @@
 import React, { useState } from 'react';
 import styles from '../stylz/CharacterSelection.module.css';
 
+import paulImage from '../assets/paul_atreides.png';
+import jessicaImage from '../assets/lady_jessica.jpeg';
+import duncanImage from '../assets/duncan_idaho.jpeg';
+import gurneyImage from '../assets/gurney_halleck.jpeg';
+import stilgarImage from '../assets/stilgar.jpeg';
+import chaniImage from '../assets/chani.jpeg';
+
 const characters = [
-  { name: 'Paul Atreides', image: '/path/to/paul.jpg', skills: { stealth: 1, diplomacy: 1 } },
-  { name: 'Lady Jessica', image: '/path/to/jessica.jpg', skills: { stealth: 2, diplomacy: 2, luck: -2 } },
-  { name: 'Duncan Idaho', image: '/path/to/duncan.jpg', skills: { speed: 3, intelligence: -1 } },
-  { name: 'Gurney Halleck', image: '/path/to/gurney.jpg', skills: { luck: 2, intelligence: 2, diplomacy: -3 } },
-  { name: 'Stilgar', image: '/path/to/stilgar.jpg', skills: { stealth: 1, speed: 1, diplomacy: 1, luck: -2 } },
-  { name: 'Chani', image: '/path/to/chani.jpg', skills: { stealth: 3, speed: 3, diplomacy: -3 } },
+  { name: 'Paul Atreides', image: paulImage, skills: { stealth: 1, diplomacy: 1 } },
+  { name: 'Lady Jessica', image: jessicaImage, skills: { stealth: 2, diplomacy: 2, luck: -2 } },
+  { name: 'Duncan Idaho', image: duncanImage, skills: { speed: 3, intelligence: -1 } },
+  { name: 'Gurney Halleck', image: gurneyImage, skills: { luck: 2, intelligence: 2, diplomacy: -3 } },
+  { name: 'Stilgar', image: stilgarImage, skills: { stealth: 1, speed: 1, diplomacy: 1, luck: -2 } },
+  { name: 'Chani', image: chaniImage, skills: { stealth: 3, speed: 3, diplomacy: -3 } },
 ];
 
 function CharacterSelection({ onStageChange }) {
