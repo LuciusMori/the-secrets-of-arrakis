@@ -1,0 +1,39 @@
+.shopHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.spiceCount {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.skillList {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.skillItem {
+  margin-bottom: 0.5rem;
+}
+
+.skillButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.purchaseButton,
+.continueButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.instructions {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.suitList {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.suitItem {
+  margin-bottom: 0.5rem;
+}
+
+.suitButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.submitButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.skill-card {
+  background-color: #1c1c1e;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0 auto 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.skill-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  color: #a8a8a8;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.common {
+  border: 2px solid #999;
+}
+
+.rare {
+  border: 2px solid #0070dd;
+}
+
+.epic {
+  border: 2px solid #a335ee;
+}
+
+.legendary {
+  border: 2px solid #ff8000;
+}
